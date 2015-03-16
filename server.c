@@ -33,5 +33,7 @@ int main(int argc, char *argv[])
 
     getchar();
 
-    return 0;
+	server_stop();
+    
+	return 0;
 }
